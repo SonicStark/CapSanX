@@ -14,3 +14,6 @@ Therefore *CapSanX* is proposed as the next generation, inspired by
 It wrappers some Python modules to parse capability info from sanitizer reports, with rich and flexible text processing features available. *CapSanX* is going to be provided as a C-style library so that *CapFuzz* can benefit from it.
 
 *CapSanX* is still under development (may be slow but hopeful :wink:).
+
+*CapSanX* is under the Apache License v2.0 with LLVM Exceptions (same as [llvm/llvm-project](https://github.com/llvm/llvm-project)). 
+See `LICENSE` for more details.
