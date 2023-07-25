@@ -11,6 +11,6 @@ Although it may seem that we can provide a big [ignorelist](https://clang.llvm.o
   - Finest granularity is function. We hope for fine-grained control such as Basic Block level.
   - It's *LLVM* suite limited. *GNU GCC* suite seems to have no corresponding thing.
 
-Another keypoint is that, they provide so-called *capability* only when the target program has errors that they can detect. What about some capabilities beyond a traditional *CRASH*? Can we reuse the infrastructure behind those sanitizers to find some more generalized capabilities?
+Another keypoint is that, they provide so-called *capability* only when the target program has errors that they can detect. What about some capabilities beyond a traditional *CRASH*? Can we reuse the infrastructure behind those sanitizers to find some more generalized capabilities? Or maybe we can do capability mining with the help of a powerful debugger such as [LLDB](https://lldb.llvm.org/)?
 
 Now it's time for some new *Capability-Oriented* sanitizers!
